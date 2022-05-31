@@ -15,7 +15,7 @@ public class StepsHomePage extends Base  implements IHomePage{
 		this.homePage = new HomePage();
 		parameters = new Parameters();
 		parameters.Insert("selenium", "selenium  again  again");
-		parameters.Insert("selenium1", "selenium  again  not again");
+		parameters.Insert("selenium1", "#skip#");
 	}
 	
 	@Override

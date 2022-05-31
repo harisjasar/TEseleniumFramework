@@ -5,6 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.te.base.Base;
+import com.te.automation.wrappers.*;
 
 public class HomePage extends Base {
 
@@ -14,15 +15,18 @@ public class HomePage extends Base {
 	@FindBy(xpath = "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[3]/center/input[1]")
 	WebElement searchButton;
 	
+	public WebElementWrappers wrappers;
+	
 	public HomePage() {
 		PageFactory.initElements(driver, this);
+		this.wrappers = new WebElementWrappers();
 	}
 	
 	public void populateSearchTextBox(String text) {
-		searchTextFIeld.sendKeys(text);
+		wrappers.SendKeysWrapper(searchTextFIeld, "Search Textbox", text);
 	}
 	
 	public void clickOnSearchButton() {
-		searchButton.click();
+		wrappers.ClickWrapper(searchButton, "Search Button");
 	}
 }
