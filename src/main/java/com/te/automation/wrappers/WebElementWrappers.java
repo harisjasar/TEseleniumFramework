@@ -13,11 +13,23 @@ public class WebElementWrappers {
 		}
 		
 		element.sendKeys(value);
-		System.out.println("Element Name: " + elementName + " - Entered Value: " + value);
+		SendKeysWrapperMessage(elementName, value);
 	}
 	
 	public void ClickWrapper(WebElement element, String elementName) {
 		element.click();
-		System.out.println("Clicked on " + elementName);
+		ClickWrapperMessage(elementName);
+	}
+	
+	private void SendKeysWrapperMessage(String elementName, String value) {
+		System.out.println("-----------------------------------");
+		System.out.println("Element Name: " + elementName + " - Entered Value: " + value);
+		System.out.println("-----------------------------------");
+	}
+	
+	private void ClickWrapperMessage(String elementName) {
+		System.out.println("-----------------------------------");
+		System.out.println("Element Name: " + elementName + " - Clicked");
+		System.out.println("-----------------------------------");
 	}
 }
