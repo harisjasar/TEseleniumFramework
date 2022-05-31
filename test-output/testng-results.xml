@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-01T01:04:24 CEST" name="Default suite" finished-at="2022-06-01T01:04:25 CEST" duration-ms="1733">
+  <suite started-at="2022-06-01T01:22:33 CEST" name="Default suite" finished-at="2022-06-01T01:22:35 CEST" duration-ms="1757">
     <groups>
     </groups>
-    <test started-at="2022-06-01T01:04:24 CEST" name="Default test" finished-at="2022-06-01T01:04:25 CEST" duration-ms="1733">
+    <test started-at="2022-06-01T01:22:33 CEST" name="Default test" finished-at="2022-06-01T01:22:35 CEST" duration-ms="1757">
       <class name="com.te.TestCases.HomePageTest">
-        <test-method signature="VerifyEnterAndSearch()[pri:0, instance:com.te.TestCases.HomePageTest@61c76850]" started-at="2022-06-01T01:04:24 CEST" name="VerifyEnterAndSearch" finished-at="2022-06-01T01:04:25 CEST" duration-ms="1426" status="PASS">
+        <test-method signature="VerifyEnterAndSearch()[pri:0, instance:com.te.TestCases.HomePageTest@31da6b2e]" started-at="2022-06-01T01:22:33 CEST" name="VerifyEnterAndSearch" finished-at="2022-06-01T01:22:35 CEST" duration-ms="1455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyEnterAndSearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.te.TestCases.HomePageTest@61c76850]" started-at="2022-06-01T01:04:25 CEST" name="tearDown" finished-at="2022-06-01T01:04:25 CEST" duration-ms="254" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.te.TestCases.HomePageTest@31da6b2e]" started-at="2022-06-01T01:22:35 CEST" name="tearDown" finished-at="2022-06-01T01:22:35 CEST" duration-ms="252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

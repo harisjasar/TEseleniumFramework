@@ -2,11 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Regression Suite">
-
-<test name="HomePageTest">
-<classes>
-<class name="com.te.TestCases.HomePageTest"></class>
-
-</classes>
-</test>
+	<test name="HomePageTest">
+		<classes>
+			<class name="com.te.TestCases.HomePageTest"></class>
+		</classes>
+	</test>
 </suite>

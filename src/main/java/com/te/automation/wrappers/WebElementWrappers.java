@@ -3,10 +3,12 @@ import org.openqa.selenium.WebElement;
 
 public class WebElementWrappers {
 
-	public WebElementWrappers(){
-		
-	}
-	
+	/**
+	 * SendKeysWrapper - Wraps the sendkeys() Selenium method to include additional checks and logs
+	 * @param element
+	 * @param elementName
+	 * @param value
+	 */
 	public void SendKeysWrapper(WebElement element, String elementName, String value) {
 		if(value.equals("#skip#")) {
 			return;
@@ -16,6 +18,11 @@ public class WebElementWrappers {
 		SendKeysWrapperMessage(elementName, value);
 	}
 	
+	/**
+	 * ClickWrapper - Wraps the click() Selenium method to include additional checks and logs
+	 * @param element
+	 * @param elementName
+	 */
 	public void ClickWrapper(WebElement element, String elementName) {
 		element.click();
 		ClickWrapperMessage(elementName);
