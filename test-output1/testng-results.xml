@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-30T23:21:43 CEST" name="Default suite" finished-at="2022-05-30T23:21:48 CEST" duration-ms="5483">
+    <groups>
+    </groups>
+    <test started-at="2022-05-30T23:21:43 CEST" name="Default test" finished-at="2022-05-30T23:21:48 CEST" duration-ms="5483">
+      <class name="com.te.TestCases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.te.TestCases.HomePageTest@13fd2ccd]" started-at="2022-05-30T23:21:43 CEST" name="setUp" finished-at="2022-05-30T23:21:47 CEST" duration-ms="3838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearch()[pri:0, instance:com.te.TestCases.HomePageTest@13fd2ccd]" started-at="2022-05-30T23:21:47 CEST" name="verifySearch" finished-at="2022-05-30T23:21:48 CEST" duration-ms="1376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.te.TestCases.HomePageTest@13fd2ccd]" started-at="2022-05-30T23:21:48 CEST" name="tearDown" finished-at="2022-05-30T23:21:48 CEST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.te.TestCases.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
