@@ -7,6 +7,6 @@ public interface ITextBoxPage {
 	void StepPopulatePermanentAddress();
 	void StepClickOnSubmitButton();
 	void StepNavigateTo();
-	void StepVerifySuccessMessageVisible();
+	boolean StepVerifySuccessMessageVisible();
 	void StepPopulateForm();
 }

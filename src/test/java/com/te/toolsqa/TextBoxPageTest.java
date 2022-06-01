@@ -3,6 +3,8 @@ package com.te.toolsqa;
 import java.io.IOException;
 import java.lang.reflect.Method;
 import javax.xml.parsers.ParserConfigurationException;
+
+import org.testng.Assert;
 import org.testng.annotations.*;
 import org.xml.sax.SAXException;
 import com.te.automation.steps.toolsqa.StepsTextBoxPage;
@@ -30,7 +32,7 @@ public class TextBoxPageTest extends StepsTextBoxPage {
 		StepPopulateCurrentAddress();
 		StepPopulatePermanentAddress();
 		StepClickOnSubmitButton();
-		StepVerifySuccessMessageVisible();
+		Assert.assertTrue(StepVerifySuccessMessageVisible(), "Success Message is not visible");
 	}
 	
 	@Test
@@ -38,7 +40,7 @@ public class TextBoxPageTest extends StepsTextBoxPage {
 		StepNavigateTo();
 		StepPopulateForm();
 		StepClickOnSubmitButton();
-		StepVerifySuccessMessageVisible();
+		Assert.assertTrue(StepVerifySuccessMessageVisible(), "Success Message is not visible");
 	}
 	
 	@Test
@@ -46,7 +48,7 @@ public class TextBoxPageTest extends StepsTextBoxPage {
 		StepNavigateTo();
 		StepPopulateForm();
 		StepClickOnSubmitButton();
-		StepVerifySuccessMessageVisible();
+		Assert.assertTrue(StepVerifySuccessMessageVisible(), "Success Message is not visible");
 	}
 	
 	

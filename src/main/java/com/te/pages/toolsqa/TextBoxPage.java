@@ -3,8 +3,6 @@ package com.te.pages.toolsqa;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
-
 import com.te.automation.wrappers.WebElementWrappers;
 import com.te.base.Base;
 
@@ -59,10 +57,8 @@ public class TextBoxPage extends Base{
 		wrappers.NavigateToWrapper(driver, url);
 	}
 	
-	public void verifySuccessMessageVisible() {
+	public boolean verifySuccessMessageVisible() {
 		String attribute = successMessage.getAttribute("class");
-		if(attribute.contains("undefined")) {
-			Assert.fail("Success Message is not visible");
-		}
+		return !attribute.contains("undefined");
 	}
 }

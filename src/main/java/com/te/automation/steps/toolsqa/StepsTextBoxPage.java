@@ -54,8 +54,8 @@ public class StepsTextBoxPage extends Base  implements ITextBoxPage{
 	}
 
 	@Override
-	public void StepVerifySuccessMessageVisible() {
-		textBoxPage.verifySuccessMessageVisible();
+	public boolean StepVerifySuccessMessageVisible() {
+		return textBoxPage.verifySuccessMessageVisible();
 	}
 
 	@Override
