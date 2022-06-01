@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Smoke Test #1 -->
+<Testcases>
+	<TC_0123456_VerifySignUpForm>
+		<firstName>Haris</firstName>
+		<lastName>Jasar</lastName>
+		<dob>16071996</dob>
+		<phoneNumber>38762014162</phoneNumber>
+	</TC_0123456_VerifySignUpForm>
+	<TC_0123457_VerifySignUpForm>
+		<fName>Haris</fName>
+		<lName>Jasar</lName>
+		<dateOfBirth>16071996</dateOfBirth>
+		<phone>38762014162</phone>
+	</TC_0123457_VerifySignUpForm>
+</Testcases>
