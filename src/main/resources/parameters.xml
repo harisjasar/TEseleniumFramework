@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Smoke Test #1 -->
+<Testcases>
+	<VerifyEnterAndSearch>
+		<url>https://google.com</url>
+		<firstName>Haris</firstName>
+		<lastName>Jasar</lastName>
+		<dob>16071996</dob>
+		<phoneNumber>38762014162</phoneNumber>
+	</VerifyEnterAndSearch>
+	<VerifyEnterAndSearch1>
+		<url>https://google.com</url>
+		<firstName>Ajsa</firstName>
+		<lName>Jasar</lName>
+		<dateOfBirth>16071996</dateOfBirth>
+		<phone>38762014162</phone>
+	</VerifyEnterAndSearch1>
+	<VerifyAbleToPopulateTextBoxes>
+		<url>https://demoqa.com/text-box</url>
+		<fullName>Haris Jasarevic</fullName>
+		<email>hare.jasarevic@gmail.com</email>
+		<currentAddress>This is my current address</currentAddress>
+		<permanentAddress>This is my permanent address</permanentAddress>
+	</VerifyAbleToPopulateTextBoxes>
+		<VerifyAbleToPopulateFormWithAllParameters>
+		<url>https://demoqa.com/text-box</url>
+		<fullName>Haris Jasarevic</fullName>
+		<email>hare.jasarevic@gmail.com</email>
+		<currentAddress>This is my current address</currentAddress>
+		<permanentAddress>This is my permanent address</permanentAddress>
+	</VerifyAbleToPopulateFormWithAllParameters>
+		<VerifyAbleToPopulateFormWithSkipParameters>
+		<url>https://demoqa.com/text-box</url>
+		<fullName>Haris Jasarevic</fullName>
+		<email>hare.jasarevic@gmail.com</email>
+		<currentAddress>#skip#</currentAddress>
+		<permanentAddress>This is my permanent address</permanentAddress>
+	</VerifyAbleToPopulateFormWithSkipParameters>
+</Testcases>

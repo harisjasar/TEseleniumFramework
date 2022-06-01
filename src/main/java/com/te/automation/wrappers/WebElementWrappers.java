@@ -1,7 +1,10 @@
 package com.te.automation.wrappers;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class WebElementWrappers {
+import com.te.base.Base;
+
+public class WebElementWrappers extends Base {
 
 	/**
 	 * SendKeysWrapper - Wraps the sendkeys() Selenium method to include additional checks and logs
@@ -28,6 +31,16 @@ public class WebElementWrappers {
 		ClickWrapperMessage(elementName);
 	}
 	
+	/**
+	 * NavigateToWrapper - Wraps driver.get() Selenium method to include additional checks and logs
+	 * @param driver
+	 * @param url
+	 */
+	public void NavigateToWrapper(WebDriver driver, String url) {
+		driver.get(url);
+		NavigateToWrapperMessage(url);
+	}
+	
 	private void SendKeysWrapperMessage(String elementName, String value) {
 		System.out.println("-----------------------------------");
 		System.out.println("Element Name: " + elementName + " - Entered Value: " + value);
@@ -37,6 +50,12 @@ public class WebElementWrappers {
 	private void ClickWrapperMessage(String elementName) {
 		System.out.println("-----------------------------------");
 		System.out.println("Element Name: " + elementName + " - Clicked");
+		System.out.println("-----------------------------------");
+	}
+
+	private void NavigateToWrapperMessage(String url) {
+		System.out.println("-----------------------------------");
+		System.out.println("Navigated to: " + url);
 		System.out.println("-----------------------------------");
 	}
 }

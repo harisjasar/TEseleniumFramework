@@ -3,7 +3,6 @@ package com.te.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import com.te.base.Base;
 import com.te.automation.wrappers.*;
 
@@ -28,5 +27,9 @@ public class HomePage extends Base {
 	
 	public void clickOnSearchButton() {
 		wrappers.ClickWrapper(searchButton, "Search Button");
+	}
+
+	public void navigateTo(String url) {
+		wrappers.NavigateToWrapper(driver, url);
 	}
 }
