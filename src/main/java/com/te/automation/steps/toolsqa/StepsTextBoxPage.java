@@ -9,7 +9,6 @@ public class StepsTextBoxPage extends Base  implements ITextBoxPage{
 	private TextBoxPage textBoxPage;
 
 	public StepsTextBoxPage() {
-		initialization();
 		this.textBoxPage = new TextBoxPage();
 	}
 	

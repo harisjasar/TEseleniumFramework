@@ -26,5 +26,4 @@ public class StepsHomePage extends Base  implements IHomePage{
 	public void StepNavigateTo() {
 		homePage.navigateTo(params.get("url"));
 	}
-
 }

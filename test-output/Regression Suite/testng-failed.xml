@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Regression Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="VerifyEnterAndSearch(failed)">
+  <test thread-count="5" name="VerifyAbleToPopulateTextBoxes(failed)">
     <classes>
-      <class name="com.te.toolsqa.TextBoxPageTest">
+      <class name="com.te.TestCases.HomePageTest">
         <methods>
           <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="VerifyAbleToPopulateTextBoxes"/>
           <include name="RetrieveParameters"/>
-          <include name="VerifyAbleToPopulateFormWithSkipParameters"/>
-          <include name="VerifyAbleToPopulateFormWithAllParameters"/>
+          <include name="VerifyEnterAndSearch1"/>
+          <include name="VerifyEnterAndSearch"/>
         </methods>
-      </class> <!-- com.te.toolsqa.TextBoxPageTest -->
+      </class> <!-- com.te.TestCases.HomePageTest -->
     </classes>
-  </test> <!-- VerifyEnterAndSearch(failed) -->
+  </test> <!-- VerifyAbleToPopulateTextBoxes(failed) -->
 </suite> <!-- Failed suite [Regression Suite] -->

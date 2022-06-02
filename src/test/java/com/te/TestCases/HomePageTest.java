@@ -22,11 +22,4 @@ public class HomePageTest extends StepsHomePage {
 		StepEnterText();
 		StepClickSearchButton();
 	}
-	
-	/*
-	@AfterTest
-	public void tearDown() {
-		driver.quit();
-	}
-	*/
 }

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="5" passed="5" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-02T17:06:19Z" name="Surefire suite" finished-at="2022-06-02T17:06:31Z" duration-ms="11557">
+  <suite name="Surefire suite" duration-ms="11895" started-at="2022-06-02T17:43:51Z" finished-at="2022-06-02T17:44:03Z">
     <groups>
     </groups>
-    <test started-at="2022-06-02T17:06:19Z" name="Surefire test" finished-at="2022-06-02T17:06:31Z" duration-ms="11557">
+    <test name="Surefire test" duration-ms="11895" started-at="2022-06-02T17:43:51Z" finished-at="2022-06-02T17:44:03Z">
       <class name="com.te.TestCases.HomePageTest">
-        <test-method is-config="true" signature="RetrieveParameters(java.lang.reflect.Method)[pri:0, instance:com.te.TestCases.HomePageTest@56ccd751]" started-at="2022-06-02T19:06:19Z" name="RetrieveParameters" finished-at="2022-06-02T19:06:19Z" duration-ms="22" status="PASS">
+        <test-method status="PASS" signature="RetrieveParameters(java.lang.reflect.Method)[pri:0, instance:com.te.TestCases.HomePageTest@76884e4b]" name="RetrieveParameters" is-config="true" duration-ms="9" started-at="2022-06-02T19:43:51Z" finished-at="2022-06-02T19:43:51Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RetrieveParameters -->
-        <test-method signature="VerifyEnterAndSearch()[pri:0, instance:com.te.TestCases.HomePageTest@56ccd751]" started-at="2022-06-02T19:06:19Z" name="VerifyEnterAndSearch" finished-at="2022-06-02T19:06:23Z" duration-ms="3557" status="PASS">
+        <test-method status="PASS" signature="VerifyEnterAndSearch()[pri:0, instance:com.te.TestCases.HomePageTest@76884e4b]" name="VerifyEnterAndSearch" duration-ms="3487" started-at="2022-06-02T19:43:51Z" finished-at="2022-06-02T19:43:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyEnterAndSearch -->
-        <test-method is-config="true" signature="RetrieveParameters(java.lang.reflect.Method)[pri:0, instance:com.te.TestCases.HomePageTest@56ccd751]" started-at="2022-06-02T19:06:23Z" name="RetrieveParameters" finished-at="2022-06-02T19:06:23Z" duration-ms="4" status="PASS">
+        <test-method status="PASS" signature="RetrieveParameters(java.lang.reflect.Method)[pri:0, instance:com.te.TestCases.HomePageTest@76884e4b]" name="RetrieveParameters" is-config="true" duration-ms="1" started-at="2022-06-02T19:43:55Z" finished-at="2022-06-02T19:43:55Z">
           <params>
             <param index="0">
               <value>
@@ -33,24 +33,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RetrieveParameters -->
-        <test-method signature="VerifyEnterAndSearch1()[pri:0, instance:com.te.TestCases.HomePageTest@56ccd751]" started-at="2022-06-02T19:06:23Z" name="VerifyEnterAndSearch1" finished-at="2022-06-02T19:06:25Z" duration-ms="2287" status="PASS">
+        <test-method status="PASS" signature="VerifyEnterAndSearch1()[pri:0, instance:com.te.TestCases.HomePageTest@76884e4b]" name="VerifyEnterAndSearch1" duration-ms="2340" started-at="2022-06-02T19:43:55Z" finished-at="2022-06-02T19:43:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyEnterAndSearch1 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestContext)[pri:0, instance:com.te.TestCases.HomePageTest@56ccd751]" started-at="2022-06-02T19:06:31Z" name="tearDown" finished-at="2022-06-02T19:06:31Z" duration-ms="253" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@2ff15f8c]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.te.TestCases.HomePageTest@76884e4b]" name="tearDown" is-config="true" duration-ms="844" started-at="2022-06-02T19:44:03Z" finished-at="2022-06-02T19:44:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.te.TestCases.HomePageTest -->
       <class name="com.te.toolsqa.TextBoxPageTest">
-        <test-method is-config="true" signature="RetrieveParameters(java.lang.reflect.Method)[pri:0, instance:com.te.toolsqa.TextBoxPageTest@52a36910]" started-at="2022-06-02T19:06:25Z" name="RetrieveParameters" finished-at="2022-06-02T19:06:25Z" duration-ms="1" status="PASS">
+        <test-method status="PASS" signature="RetrieveParameters(java.lang.reflect.Method)[pri:0, instance:com.te.toolsqa.TextBoxPageTest@12c7a01b]" name="RetrieveParameters" is-config="true" duration-ms="1" started-at="2022-06-02T19:43:57Z" finished-at="2022-06-02T19:43:57Z">
           <params>
             <param index="0">
               <value>
@@ -61,15 +54,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RetrieveParameters -->
-        <test-method signature="VerifyAbleToPopulateFormWithAllParameters()[pri:0, instance:com.te.toolsqa.TextBoxPageTest@52a36910]" started-at="2022-06-02T19:06:25Z" name="VerifyAbleToPopulateFormWithAllParameters" finished-at="2022-06-02T19:06:28Z" duration-ms="3005" status="PASS">
+        <test-method status="PASS" signature="VerifyAbleToPopulateFormWithAllParameters()[pri:0, instance:com.te.toolsqa.TextBoxPageTest@12c7a01b]" name="VerifyAbleToPopulateFormWithAllParameters" duration-ms="2914" started-at="2022-06-02T19:43:57Z" finished-at="2022-06-02T19:44:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyAbleToPopulateFormWithAllParameters -->
-        <test-method signature="VerifyAbleToPopulateFormWithSkipParameters()[pri:0, instance:com.te.toolsqa.TextBoxPageTest@52a36910]" started-at="2022-06-02T19:06:28Z" name="VerifyAbleToPopulateFormWithSkipParameters" finished-at="2022-06-02T19:06:29Z" duration-ms="1350" status="PASS">
+        <test-method status="PASS" signature="VerifyAbleToPopulateFormWithSkipParameters()[pri:0, instance:com.te.toolsqa.TextBoxPageTest@12c7a01b]" name="VerifyAbleToPopulateFormWithSkipParameters" duration-ms="1339" started-at="2022-06-02T19:44:00Z" finished-at="2022-06-02T19:44:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyAbleToPopulateFormWithSkipParameters -->
-        <test-method is-config="true" signature="RetrieveParameters(java.lang.reflect.Method)[pri:0, instance:com.te.toolsqa.TextBoxPageTest@52a36910]" started-at="2022-06-02T19:06:28Z" name="RetrieveParameters" finished-at="2022-06-02T19:06:28Z" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="RetrieveParameters(java.lang.reflect.Method)[pri:0, instance:com.te.toolsqa.TextBoxPageTest@12c7a01b]" name="RetrieveParameters" is-config="true" duration-ms="0" started-at="2022-06-02T19:44:00Z" finished-at="2022-06-02T19:44:00Z">
           <params>
             <param index="0">
               <value>
@@ -80,7 +73,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RetrieveParameters -->
-        <test-method is-config="true" signature="RetrieveParameters(java.lang.reflect.Method)[pri:0, instance:com.te.toolsqa.TextBoxPageTest@52a36910]" started-at="2022-06-02T19:06:29Z" name="RetrieveParameters" finished-at="2022-06-02T19:06:29Z" duration-ms="1" status="PASS">
+        <test-method status="PASS" signature="RetrieveParameters(java.lang.reflect.Method)[pri:0, instance:com.te.toolsqa.TextBoxPageTest@12c7a01b]" name="RetrieveParameters" is-config="true" duration-ms="1" started-at="2022-06-02T19:44:01Z" finished-at="2022-06-02T19:44:01Z">
           <params>
             <param index="0">
               <value>
@@ -91,7 +84,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RetrieveParameters -->
-        <test-method signature="VerifyAbleToPopulateTextBoxes()[pri:0, instance:com.te.toolsqa.TextBoxPageTest@52a36910]" started-at="2022-06-02T19:06:29Z" name="VerifyAbleToPopulateTextBoxes" finished-at="2022-06-02T19:06:31Z" duration-ms="1310" status="PASS">
+        <test-method status="PASS" signature="VerifyAbleToPopulateTextBoxes()[pri:0, instance:com.te.toolsqa.TextBoxPageTest@12c7a01b]" name="VerifyAbleToPopulateTextBoxes" duration-ms="1792" started-at="2022-06-02T19:44:01Z" finished-at="2022-06-02T19:44:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyAbleToPopulateTextBoxes -->
