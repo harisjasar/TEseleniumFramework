@@ -8,15 +8,22 @@ import com.te.automation.wrappers.*;
 
 public class HomePage extends Base {
 
-	@FindBy(xpath = "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input")
+	public static final String searchTextFieldXpath = "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input";;
+	public static final String searchButtonXpath = "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[3]/center/input[1]";
+	
+	@FindBy(xpath = searchTextFieldXpath)
 	WebElement searchTextFIeld;
 	
-	@FindBy(xpath = "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[3]/center/input[1]")
+	@FindBy(xpath = searchButtonXpath )
 	WebElement searchButton;
 	
 	public WebElementWrappers wrappers;
 	
 	public HomePage() {
+		System.out.println("$$$$$$$$$$$$$$$$$");
+		System.out.println("WHEN DOES THIS HAPPEN - HOME PAGE");
+		System.out.println("$$$$$$$$$$$$$$$$$");
+		initialization();
 		PageFactory.initElements(driver, this);
 		this.wrappers = new WebElementWrappers();
 	}

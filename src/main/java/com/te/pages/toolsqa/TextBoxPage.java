@@ -29,6 +29,9 @@ public class TextBoxPage extends Base{
 	public WebElementWrappers wrappers;
 	
 	public TextBoxPage() {
+		System.out.println("$$$$$$$$$$$$$$$$$");
+		System.out.println("WHEN DOES THIS HAPPEN - TEXTBOOX PAGE");
+		System.out.println("$$$$$$$$$$$$$$$$$");
 		PageFactory.initElements(driver, this);
 		this.wrappers = new WebElementWrappers();
 	}

@@ -1,25 +1,16 @@
 package com.te.automation.steps.toolsqa;
 
-import java.io.IOException;
-import java.util.HashMap;
-import javax.xml.parsers.ParserConfigurationException;
-import org.xml.sax.SAXException;
 import com.te.automation.contracts.toolsqa.ITextBoxPage;
-import com.te.automation.parsers.ParameterXmlParser;
 import com.te.base.Base;
 import com.te.pages.toolsqa.TextBoxPage;
 
 public class StepsTextBoxPage extends Base  implements ITextBoxPage{
 
 	private TextBoxPage textBoxPage;
-	private final String _filePath = "src/main/resources/parameters.xml";
-	protected ParameterXmlParser _parameterXmlParser;
-	protected HashMap<String, String> params;
-	
-	public StepsTextBoxPage() throws ParserConfigurationException, SAXException, IOException {
+
+	public StepsTextBoxPage() {
 		initialization();
 		this.textBoxPage = new TextBoxPage();
-		_parameterXmlParser = new ParameterXmlParser(this._filePath);
 	}
 	
 	@Override

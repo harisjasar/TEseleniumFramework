@@ -1,7 +1,8 @@
 package com.te.automation.wrappers;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
+import org.openqa.selenium.Keys;
 import com.te.base.Base;
 
 public class WebElementWrappers extends Base {
@@ -16,8 +17,9 @@ public class WebElementWrappers extends Base {
 		if(value.equals("#skip#")) {
 			return;
 		}
-		
 		element.sendKeys(value);
+		element.sendKeys(Keys.TAB);
+
 		SendKeysWrapperMessage(elementName, value);
 	}
 	

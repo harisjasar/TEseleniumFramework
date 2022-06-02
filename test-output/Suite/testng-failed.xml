@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.te.toolsqa.TextBoxPageTest">
+        <methods>
+          <include name="VerifyAbleToPopulateTextBoxes"/>
+          <include name="tearDown"/>
+          <include name="VerifyAbleToPopulateFormWithSkipParameters"/>
+          <include name="RetrieveParameters"/>
+          <include name="VerifyAbleToPopulateFormWithAllParameters"/>
+        </methods>
+      </class> <!-- com.te.toolsqa.TextBoxPageTest -->
+      <class name="com.te.TestCases.HomePageTest">
+        <methods>
+          <include name="VerifyEnterAndSearch1"/>
+          <include name="RetrieveParameters"/>
+          <include name="VerifyEnterAndSearch"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.te.TestCases.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

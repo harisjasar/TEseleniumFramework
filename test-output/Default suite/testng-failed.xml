@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.te.toolsqa.TextBoxPageTest">
+      <class name="com.te.TestCases.HomePageTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="VerifyAbleToPopulateFormWithSkipParameters"/>
+          <include name="VerifyEnterAndSearch1"/>
           <include name="RetrieveParameters"/>
+          <include name="VerifyEnterAndSearch"/>
         </methods>
-      </class> <!-- com.te.toolsqa.TextBoxPageTest -->
+      </class> <!-- com.te.TestCases.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

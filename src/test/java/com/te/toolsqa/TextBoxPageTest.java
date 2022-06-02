@@ -1,29 +1,17 @@
 package com.te.toolsqa;
 
-import java.io.IOException;
-import java.lang.reflect.Method;
-import javax.xml.parsers.ParserConfigurationException;
-
 import org.testng.Assert;
 import org.testng.annotations.*;
-import org.xml.sax.SAXException;
 import com.te.automation.steps.toolsqa.StepsTextBoxPage;
 
 public class TextBoxPageTest extends StepsTextBoxPage {
 
 
 	
-	public TextBoxPageTest() throws ParserConfigurationException, SAXException, IOException {
+	public TextBoxPageTest() {
 		super();
 	}
 
-
-	@BeforeMethod
-	public void RetrieveParameters(Method method) {
-		System.out.println("Test Name: " + method.getName());
-	    params = _parameterXmlParser.GetParameters(method.getName());
-	}
-	
 	@Test
 	public void VerifyAbleToPopulateTextBoxes() {
 		StepNavigateTo();
@@ -49,11 +37,5 @@ public class TextBoxPageTest extends StepsTextBoxPage {
 		StepPopulateForm();
 		StepClickOnSubmitButton();
 		Assert.assertTrue(StepVerifySuccessMessageVisible(), "Success Message is not visible");
-	}
-	
-	
-	@AfterTest
-	public void tearDown() {
-		driver.quit();
 	}
 }

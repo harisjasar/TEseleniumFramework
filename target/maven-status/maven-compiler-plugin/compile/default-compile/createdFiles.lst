@@ -1,0 +1,9 @@
+com\te\pages\HomePage.class
+com\te\automation\steps\toolsqa\StepsTextBoxPage.class
+com\te\automation\contracts\toolsqa\ITextBoxPage.class
+com\te\automation\contracts\IHomePage.class
+com\te\pages\toolsqa\TextBoxPage.class
+com\te\base\Base.class
+com\te\automation\steps\StepsHomePage.class
+com\te\automation\wrappers\WebElementWrappers.class
+com\te\automation\parsers\ParameterXmlParser.class
